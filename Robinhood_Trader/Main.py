@@ -8,7 +8,10 @@ if len(sys.argv) != 3:
 
 r.login(sys.argv[1], sys.argv[2])
 
+print("Account profile: ")
 print(r.load_account_profile())
+
+print("")
 
 r.logout()
 
